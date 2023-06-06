@@ -1,0 +1,88 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    image-rendering: auto;
+}
+
+.heading {
+    font-size: 24px;
+}
+.h {height: 2rem;
+width: 2rem;
+}
+
+.subheading {
+    font-size: 16px;
+}
+
+/* Language Selector styles */
+.language-selector {
+    text-align: center;
+    margin: 10px 0;
+    text-align: center;
+    border: 3px solid green;
+}
+
+.language-btn {
+    margin: 5px;
+    padding: 0;}
+
+header {
+    background-image: url("image/Logo_3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.feature{
+text-align: center;
+    background-color: #f2f2f2;
+
+}
+
+.container{
+    text-align: center;
+
+}
+
+#htu-hero>div {
+    background-color: #fff;
+    background-color: transparent;
+    
+}
+
+#htu-hero form button {
+    background-color: transparent;
+    color: black;
+    margin-left: 7%;
+}
+
+.htu-card-wrapper .card{
+     width:100;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
